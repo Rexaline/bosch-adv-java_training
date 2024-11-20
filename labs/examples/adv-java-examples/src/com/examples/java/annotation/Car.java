@@ -1,6 +1,6 @@
 package com.examples.java.annotation;
 
-// {"manufacturerer" : "Ford", "model": "F150"}
+// {"manufacturer" : "Ford", "model": "F150"}
 public class Car {
 
     @JsonField("manufacturer")
