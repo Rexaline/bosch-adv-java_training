@@ -26,7 +26,7 @@ ls /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/include/darwin/jni
 
 ### Generate the shared library for Windows OS
 ```bash
-gcc -shared -o helloworld.dll -fPIC HelloWorldJNI.c -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/win32"
+gcc -shared -o helloworld.dll -fPIC HelloWorldJNI.c -I"%JAVA_HOME%/include" -I"%JAVA_HOME%/include/win32"
 ```
 
 ### Run the Java program
